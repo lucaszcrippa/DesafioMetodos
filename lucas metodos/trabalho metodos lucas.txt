@@ -1,0 +1,104 @@
+public static void tabuada() {
+        int numero = 2;
+
+        System.out.println(numero * 1);
+        System.out.println(numero * 2);
+        System.out.println(numero * 3);
+        System.out.println(numero * 4);
+        System.out.println(numero * 5);
+        System.out.println(numero * 6);
+        System.out.println(numero * 7);
+        System.out.println(numero * 8);
+        System.out.println(numero * 9);
+        System.out.println(numero * 10);
+
+    }
+
+    public static void main(String[] args) {
+
+        tabuada();
+        
+    }
+ public static void main(String[] args) {
+        int[] array = new int[]{1,3};
+        
+        Arrays.sort(array);
+    }
+ public static void main(String[] args) {
+        
+        String nome1 = "arthur";
+        String nome2 = "Dhiovana";
+        
+        boolean iguais = nome1.equals(nome2);
+        System.out.println(iguais);
+    }
+ public static void Menornumero () {
+    }
+        int n1 =22;
+        int n2= 9;
+      
+   n1 < n2
+   System.out.println(" menor número é: " + n1);
+} else {
+   System.out.println("O menor número é: " + n2);
+    }
+
+     public static void main(String[] args) {
+        Menornumero ();
+}
+ public static void iguais() {
+        String nome1 = "lucas";
+        String nome2 = "nathan";
+        
+        boolean iguais = nome1.equals(nome2);
+        
+        if(iguais == true){
+            System.out.println("sao iguais");
+        }else{
+            System.out.println("Nao sao");
+        }
+    }
+
+    public static void main(String[] args) {
+        iguais();
+    }
+ public static void celcius(){
+        double celcios = 10;
+        double conta = (celcios * 1.8) + 32;
+        
+        System.out.println(conta);
+    }
+    
+    public static void main(String[] args) {
+        celcius();
+    }
+ public static void areadocirculo () {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Digite o raio do círculo: ");
+        double raio = scanner.nextDouble();
+        double areaDoCirculo = calcularAreaCirculo(raio);
+        System.out.println("A área do círculo é: " + areaDoCirculo);
+    }
+
+    public static double calcularAreaCirculo(double raio) {
+        double area = Math.PI * Math.pow(raio, 2);
+        return area;
+    }
+}
+   public static void main(String[] args) {
+   Areadocirculo();
+}
+ public static void media(){
+        double nota1 = 3;
+        double nota2 = 3;
+        double nota3 = 4;
+        
+        double conta = nota1 + nota2 + nota3;
+        double conta2 = conta / 3;
+        
+        System.out.println(conta2);
+    }
+    
+    public static void main(String[] args) {
+        media();
+    }
